@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NorthSideChoice — Clothing Brand</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay"></div>
+    <h1>NorthSideChoice</h1>
+    <p>Elevate Your Everyday Look</p>
+    <a href="#shop" class="btn">Shop Now</a>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>NorthSideChoice is a lifestyle clothing brand born from urban creativity and comfort. We create minimalist, premium-quality fashion for those who stand tall and stand out.</p>
+  </section>
+
+  <section id="shop">
+    <h2>Our Collections</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1521334884684-d80222895322?w=500" alt="T-shirt">
+        <h3>Classic Tee</h3>
+        <p>$25</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500" alt="Hoodie">
+        <h3>Signature Hoodie</h3>
+        <p>$45</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1528701800489-20be3c2c6422?w=500" alt="Cap">
+        <h3>Urban Cap</h3>
+        <p>$15</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:northsidechoice@gmail.com">northsidechoice@gmail.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/northsidechoice" target="_blank">@northsidechoice</a></p>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> NorthSideChoice — All Rights Reserved</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
